@@ -25,7 +25,7 @@ namespace PasswordGenerator
             FileStream fs = File.Create(@"C:\Users\dmurray\Desktop\passwords.txt"); 
 
             for (int i = 0; i < 25000; i++) {
-                //length of alpah and numeric sections
+                //length of alpha and numeric sections
                 int maxSizeA = 4;
                 int maxSizeN = 3;
                 //declare stringbuilder
